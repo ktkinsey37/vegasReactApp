@@ -1,0 +1,20 @@
+.hotelDescriptionHidden {
+    width: 95%;
+    height: 200px;
+  }
+
+.hotelDescription {
+    width: 95%;
+}
+
+#hotelDescriptionField{
+    overflow: hidden;
+}
+
+.descriptionAnchor {
+    color: rgb(175, 26, 175);
+}
+
+.descriptionAnchor:hover {
+    text-decoration: underline;
+}

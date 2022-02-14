@@ -1,0 +1,27 @@
+.hotelsList {
+    float: left;
+    width: 248px;
+    margin: 20px;
+}
+
+.hotelListName {
+    color: rgb(175, 26, 175);
+    width: 120px;
+    overflow-wrap: break-word;
+    margin: 10px;
+}
+
+.hotelListPrice {
+    position: relative;
+    margin: 10px;
+    display: block;
+    text-align: right;
+}
+
+.hotelsListBox {
+    background-color: rgb(204, 199, 199);
+}
+
+.leaveLink {
+    color: rgb(175, 26, 175);
+}

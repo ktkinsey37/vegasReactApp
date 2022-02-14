@@ -1,0 +1,24 @@
+.hotelDetailsHidden {
+    width: 95%;
+    height: 200px;
+  }
+
+.hotelDetails {
+    width: 95%;
+}
+
+#hotelDetailsField{
+    overflow: hidden;
+}
+
+.detailsAnchor {
+    color: rgb(175, 26, 175);
+}
+
+.detailsAnchor:hover {
+    text-decoration: underline;
+}
+
+.detailLabel {
+    font-weight: bold; 
+}
