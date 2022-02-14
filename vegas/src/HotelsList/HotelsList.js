@@ -20,9 +20,9 @@ function HotelsList({hotels, hotel}) {
         <br/>
         <br/>
         <img src={src}></img>
-        <div className="hotelsListBox">
+        <div key={hotel.code} className="hotelsListBox">
             {hotels.map((hotel) => 
-            <div>
+            <div className="hotelBox">
                 <div className="hotelListNamebox">
                                 <p className="hotelListName">{hotel.name}</p>
                 </div>

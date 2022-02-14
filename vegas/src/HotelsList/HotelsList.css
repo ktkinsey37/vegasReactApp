@@ -12,10 +12,16 @@
 }
 
 .hotelListPrice {
+    flex: auto;
     position: relative;
     margin: 10px;
     display: block;
     text-align: right;
+}
+
+.hotelBox {
+    justify-content: space-between;
+    display: flex;
 }
 
 .hotelsListBox {
